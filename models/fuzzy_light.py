@@ -271,7 +271,8 @@ class FuzzyLight(object):
             feat40 = feat0[8] + feat0[12]
         idx = np.argmax([feat10, feat20, feat30, feat40])
         return idx
-
+        
+    #------------------------------NEW CODE---------------------------
     # def trapmf(self, x, a, b, c, d):
     #         if x <= a or x >= d:
     #             return 0.0
