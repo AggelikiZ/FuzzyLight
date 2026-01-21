@@ -94,13 +94,6 @@ def main(in_args=None):
                 "num_in_deg"
             ],
 
-            # "DIC_REWARD_INFO": {
-            #     "pressure": -0.8,    
-            #     "queue_length": -0.3,
-            #     "starvation": -0.05
-            # }
-            
-            #This is for original mode
             "DIC_REWARD_INFO": {
                 "queue_length": -0.25,
             },
